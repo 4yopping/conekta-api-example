@@ -37,4 +37,9 @@ Add your conekta api key in [.sailsrc](./.sailsrc)
 ```
 
 
+# Test Cards
+
+[Test cards](https://www.conekta.io/es/docs/referencias/pruebas)
+
+
 # License
