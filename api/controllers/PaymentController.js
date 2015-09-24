@@ -6,12 +6,14 @@
  */
 
  var conekta = require('conekta');
-conekta.api_key = 'key_DqrQSLH1FS29bFJ7n1cvQA';
-conekta.locale = 'es';
+
 
 module.exports = {
 
 	index: function(req, res){
+    // Set api key  
+    conekta.api_key = sails.config.globals.conektaApiKey;
+    conekta.locale = 'es';
 		return res.view('payment');
 	},
 
